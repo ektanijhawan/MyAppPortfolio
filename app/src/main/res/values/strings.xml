@@ -7,12 +7,6 @@
     <string name="make_your_app_material">Make Your App Material</string>
     <string name="go_ubiquitous">Go Ubiquitous</string>
     <string name="capstone">Capstone</string>
-    <string name="info_popular_movies">This button will launch my Popular Movies app!</string>
-    <string name="info_stock_hawk">This button will launch my Stock Hawk app!</string>
-    <string name="info_build_it_bigger">This button will launch my Build It Bigger app!</string>
-    <string name="info_make_your_app_material">This button will launch my Make Your App Material app!</string>
-    <string name="info_go_ubiquitous">This button will launch my Go Ubiquitous app!</string>
-    <string name="info_capstone">This button will launch my Capstone app!</string>
     <string name="button_will">This button will call my</string>
     <string name="app"> app!</string>
 </resources>

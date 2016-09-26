@@ -16,30 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-    /*    int id = v.getId();
-        switch (id) {
-            case R.id.btnPopularMovies:
-                Toast.makeText(this, this.getString(R.string.info_popular_movies), Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.btnStockHawk:
-                Toast.makeText(this, this.getString(R.string.info_stock_hawk), Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.btnBuildItBigger:
-                Toast.makeText(this, this.getString(R.string.info_build_it_bigger), Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.btnMakeYourAppMaterial:
-                Toast.makeText(this, this.getString(R.string.info_make_your_app_material), Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.btnGoUbiquitous:
-                Toast.makeText(this, this.getString(R.string.info_go_ubiquitous), Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.btnCapstone:
-                Toast.makeText(this, this.getString(R.string.info_capstone), Toast.LENGTH_SHORT).show();
 
-                break;
-
-        }
-        */
         Button button=(Button) v;
         String appName= button.getText().toString();
         Toast.makeText(this, this.getString(R.string.button_will) +" "+appName+" "+ this.getString(R.string.app), Toast.LENGTH_SHORT).show();
