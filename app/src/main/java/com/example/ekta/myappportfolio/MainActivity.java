@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-
         Button button=(Button) v;
         String appName= button.getText().toString();
         Toast.makeText(this, this.getString(R.string.button_will) +" "+appName+" "+ this.getString(R.string.app), Toast.LENGTH_SHORT).show();
